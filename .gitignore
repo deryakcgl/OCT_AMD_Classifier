@@ -1,0 +1,23 @@
+# python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# large data — do not push
+archive/
+data/
+data/patients/
+
+# local demo database (recreate with: python src/seed_data.py)
+oct_clinic.db
+
+# model weights — large files, regenerate with train.py / export_onnx.py
+octnet_fp32.pth
+octnet_int8.pth
+octnet.onnx
+octnet.onnx.data
+
+# generated output
+confusion_matrix.png

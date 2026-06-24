@@ -1,0 +1,14 @@
+# runtime — clinic app + onnx inference only
+onnxruntime>=1.17
+numpy>=1.24
+Pillow>=10.0
+
+# genai uses local ollama — not a pip package
+# before running the app:
+#   ollama pull llama3
+# optional:
+#   OLLAMA_MODEL=llama3
+#   OLLAMA_BASE_URL=http://localhost:11434
+
+# ui uses tkinter which comes with python
+# on mac with homebrew python i needed: brew install python-tk@3.14

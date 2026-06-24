@@ -1,0 +1,5 @@
+# training and experiments — not needed to run the desktop app
+-r requirements.txt
+torch>=2.0
+torchvision>=0.15
+matplotlib>=3.8
